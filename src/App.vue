@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <b-container>
-        <b-row>
+    <b-container fluid class="base">
+        <b-row class="fixed-top">
           <b-col cols="12"><Navigation/></b-col>
         </b-row>
-        <b-row>
+
+        <b-row class="mt-5 p-4">
           <b-col cols="3"><CategoriesMenu/></b-col>
           <b-col cols="9">
             <router-view :key="$route.fullPath"></router-view>
@@ -28,4 +29,8 @@ export default {
 </script>
 
 <style>
+.base {
+  height: 100vh;
+  width: 100vw;
+}
 </style>

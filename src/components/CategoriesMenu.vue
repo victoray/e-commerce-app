@@ -1,7 +1,7 @@
 <template>
   <div class="categories-menu">
     <div>
-      <b-nav vertical>
+      <b-nav vertical pills class="navbar-dark">
         <b-nav-item 
         v-for="category in categories" 
         :key="category.alias" 

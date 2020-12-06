@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
     <div>
-  <b-navbar toggleable="lg" variant="info">
+  <b-navbar toggleable="lg" class="header navbar-dark">
     <b-navbar-brand to="/">E-commerce App</b-navbar-brand>
 
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
@@ -80,6 +80,10 @@ export default {
 </script>
 
 <style scoped>
+.header {
+  background-color: #001529;
+  color: white !important;
+}
 .search-field {
   width: 400px;
 }
