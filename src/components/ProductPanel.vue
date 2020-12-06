@@ -61,6 +61,9 @@ export default {
         .get("https://euas.person.ee/sections/" + this.section + "/products")
         .then(response => {
           this.products = response.data;
+        })
+        .finally(() => {
+          this.loading = false;
         });
     }
   }
