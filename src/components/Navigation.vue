@@ -12,7 +12,7 @@
           </b-navbar-nav>
 
           <b-navbar-nav>
-            <b-nav-item to="/help">Help</b-nav-item>
+            <a href="tel:+442039662518">Help</a>
           </b-navbar-nav>
 
           <!-- Right aligned nav items -->
